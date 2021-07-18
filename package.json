@@ -1,0 +1,35 @@
+{
+  "name": "weenect-api",
+  "version": "1.0.0",
+  "description": "A NodeJS implementation of the Weenect Pet tracker API",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpwsutton/weenect-api.git"
+  },
+  "keywords": [
+    "weenect"
+  ],
+  "author": "James Sutton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpwsutton/weenect-api/issues"
+  },
+  "homepage": "https://github.com/jpwsutton/weenect-api#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node-fetch": "^2.5.11",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
